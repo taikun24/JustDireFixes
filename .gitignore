@@ -1,0 +1,37 @@
+# Gradle
+.gradle/
+build/
+out/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.classpath
+*.project
+*.settings/
+
+# Eclipse
+bin/
+eclipse/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Forge / FML
+run/
+logs/
+
+# コンパイル済みクラス・jar（ビルド成果物）
+*.class
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+
+# キャッシュ
+*.cache
+
+# Mixin refmaps（ビルド時に自動生成）
+src/main/resources/*.refmap.json

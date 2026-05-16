@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "jp.main.taikun.justdirefixes.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "justdirefixes.refmap.json",
+  "mixins": [
+    "BaseMachineBlockMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
