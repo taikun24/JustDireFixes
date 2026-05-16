@@ -18,8 +18,7 @@ public class BaseMachineBlockMixin {
             at = @At(
                     value = "INVOKE",
                     target = "Lnet/minecraft/world/level/storage/loot/LootParams$Builder;getParameter(Lnet/minecraft/world/level/storage/loot/parameters/LootContextParam;)Ljava/lang/Object;"
-            ),
-            remap = false
+            )
     )
     private Object getParamRedirect(LootParams.Builder instance, LootContextParam<BlockEntity> p_287646_){
         try{
